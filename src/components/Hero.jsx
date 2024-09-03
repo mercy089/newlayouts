@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="w-[95%] h-[95%] bg-black flex flex-col rounded-3xl">
       <Nav />
-      <hr />
+      {/* <hr /> */}
       <HeroContent />
       {/* <RotatedText /> */}
     </section>
