@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.left::after{
+  position: absolute;
+  content: url(./assets/corner.svg);
+  left: 100%;
+  top: 0;
+
+}
+.left::before{
+  position: absolute;
+  content: url(./assets/corner.svg);
+  top: 100%;
+  left: 0;
+  
+}
+
+.Rotated::after{
+  position: absolute;
+  content: url(./assets/corner.svg);
+  right: 0;
+  top: 0;
+  left: 100%;
+  bottom: 100%;
+  rotate: 180deg;
+}
+.Rotated::before{
+  position: absolute;
+  content: url(./assets/corner.svg);
+  bottom: 0;
+  left: 0;
+  top: 100%;
+  right: 100%;
+  rotate: 180deg;
+}

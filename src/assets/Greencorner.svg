@@ -1,0 +1,10 @@
+<svg class="svg-corner corner-logo-box-two" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_310_2)">
+    <path d="M40 0H0V30C0 13.431 13.431 0 40 0Z" fill="#4caf50"></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_310_2">
+      <rect width="40" height="40" fill="#4caf50"></rect>
+    </clipPath>
+  </defs>
+</svg>
